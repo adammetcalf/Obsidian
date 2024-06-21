@@ -5,7 +5,7 @@ This is detailed [here](https://opendds.readthedocs.io/en/latest-release/devguid
 1. Install [Perl](https://strawberryperl.com/), which is required for Open DDS to run the examples (the examples are just unit tests that run using Perl scripts).
 2. Ensure that Visual Studio is installed.
 3. Ensure that JAVA jdk and JNI are installed and the environment variables are set up.
-4. ~~Download the latest~~ [~~release~~](https://github.com/OpenDDS/OpenDDS/releases) . This actually fails to install the ACE and TAO necessary components. Its better to actually use [git to get the code (git clone)](https://github.com/OpenDDS/OpenDDS).
+4. ~~Download the latest~~ [~~release~~](https://github.com/OpenDDS/OpenDDS/releases) . This actually fails to install the ACE and TAO necessary components. Its better to actually [get a tagged release](https://github.com/OpenDDS/OpenDDS). 
 5. Open a Visual Studio Command prompt (use x64):![[VSCommandPrompt.png]]
 6. Navigate to the Open DDS directory:![[Command1.png]]
 7. run the batch file 'configure':![[Configure.png]]
@@ -21,3 +21,6 @@ This is detailed [here](https://opendds.readthedocs.io/en/latest-release/devguid
 18. Test should pass:![[javaPass.png]]
 
 The Java bindings rely on [JNI](obsidian://open?vault=Obsidian&file=DDS%2FJNI%20JAVA%20Native%20Interface) calls to underlying cpp code.
+
+
+If all tests pass we have successfully run the examples. We may now begin [further development in JAVA](obsidian://open?vault=Obsidian&file=DDS%2FSupporting%20notes%2FFirst%20steps%20in%20JAVA).
