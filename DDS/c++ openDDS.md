@@ -631,4 +631,48 @@ public:
 
 ```
 
-The complete breakdown of the DataReaderListener is found [here](obsidian://open?vault=Obsidian&file=DDS%2FSupporting%20notes%2FDataReaderListenerImpl).
+The complete breakdown of the DataReaderListener is found [here](obsidian://open?vault=Obsidian&file=DDS%2FSupporting%20notes%2FDataReaderListenerImpl). 
+
+
+We are now in the position where we have defined the idl file, the Publisher, the Subscriber (and supporting DataReaderListener) and the mpc file containing the simple build instructions. We are finally in a position to build:
+![[cppCompleteFolder.png]]
+
+
+1. Using x64 Native Tools Command Prompt for VS 2019, navigate to the OpenDDS directory and use the command `setenv` to call the bat file which sets temporary environment variables:
+```
+C:\Users\Adam\Desktop\OpenDDS-DDS-3.28.1\OpenDDS-DDS-3.28.1>setenv
+```
+
+2. Navigate to the directory in which your code exists and run the code which uses the mpc file to autogenerate a lot of code:
+```
+C:\Users\Adam\Desktop\OpenDDS-DDS-3.28.1\OpenDDS-DDS-3.28.1\DevGuideExamples\DCPS\Adam_hello_world>%ACE_ROOT%\bin\mwc.pl -type vs2019
+```
+![[cppPopulatedFolder.png]]
+
+3. Use the command prompt window to open Visual Studio 2019 and build the solution as x64
+```
+C:\Users\Adam\Desktop\OpenDDS-DDS-3.28.1\OpenDDS-DDS-3.28.1\DevGuideExamples\DCPS\Adam_hello_world>devenv C:\Users\Adam\Desktop\OpenDDS-DDS-3.28.1\OpenDDS-DDS-3.28.1\DevGuideExamples\DCPS\Adam_hello_world\Adam_hello_world.sln
+```
+![[buildSuccessCPP.png]]
+
+
+Running the example.
+
+This is unintuitive, and a complex process. I certainly must find a way to simplify the deployment.
+
+Three (yes three!!!!) x64 vs2019 command prompts are needed, and the timing is sensitive.
+
+Window 1
+
+1. Set environment variables in the usual way, then navigate to the current working directory.
+2. run `%DDS_ROOT%\bin\DCPSInfoRepo -o simple.ior`
+
+This creates a file which calls back to the DCPSInfoRepo exe so that the publisher and subscriber can find the network.
+
+Window 2
+1. Set environment variables in the usual way, then navigate to the current working directory.
+2. run `subscriber -DCPSInfoRepo file://simple.ior`
+
+Window 3
+1. Set environment variables in the usual way, then navigate to the current working directory.
+2. run `>publisher -DCPSInfoRepo file://simple.ior`
