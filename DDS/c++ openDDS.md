@@ -675,4 +675,50 @@ Window 2
 
 Window 3
 1. Set environment variables in the usual way, then navigate to the current working directory.
-2. run `>publisher -DCPSInfoRepo file://simple.ior`
+2. run `publisher -DCPSInfoRepo file://simple.ior`
+
+
+
+
+
+Better deployment: Place a file called rtps.ini in the target directory:
+```
+[common]
+DCPSGlobalTransportConfig=$file
+DCPSDefaultDiscovery=DEFAULT_RTPS
+
+[transport/the_rtps_transport]
+transport_type=rtps_udp
+```
+
+We may now run from just 2 command windows:
+
+Window 1
+1. Set environment variables in the usual way, then navigate to the current working directory.
+2. run `subscriber -DCPSConfigFile rtps.ini
+
+Window 2
+1. Set environment variables in the usual way, then navigate to the current working directory.
+2. run `publisher -DCPSConfigFile rtps.ini
+
+
+Additional Note:
+
+Building a release version of the sln will fail. The solution to this issue is to re clone the tagged version of OpenDDS and continue again from the start, but when the sln is built in VS2019, you must ensure that the build is set to 'release' rather than to 'debug'.
+
+
+
+Further notes. I [asked a question on github about deployment](https://github.com/OpenDDS/OpenDDS/discussions/4684).
+
+```
+Hello,
+
+This is on windows (x64 target).
+
+I have worked through the 'getting started' guide and have compiled everything needed to run a publisher (as an executable) and a subscriber (as an executable). Both use the same rtps.ini file for discovery.
+
+However, to run each executable I must first launch an x64 native vs19 command prompt, cd to my opendds directory and run setenv.bat to set the environment variables. I can then call the exe from the same window. What would you recommend I do so that I can simply run each executable from a fresh prompt without the requirement to set the environment variables every time?
+
+Ans:
+The full development environment is not needed when running applications. Just make sure that the PATH has all the `*.dll` files that the process will need to load. OpenDDS also supports a static library build where all ACE/TAO/OpenDDS code is built in to the executable file.
+```

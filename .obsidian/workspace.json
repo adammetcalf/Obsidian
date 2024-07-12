@@ -25,14 +25,36 @@
             "state": {
               "type": "markdown",
               "state": {
+                "file": "DDS/Attempting Open DDS on Windows.md",
+                "mode": "source",
+                "source": false
+              }
+            }
+          },
+          {
+            "id": "bc92a387a317cc0f",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
                 "file": "DDS/c++ openDDS.md",
                 "mode": "source",
                 "source": false
               }
             }
+          },
+          {
+            "id": "22c8037025bc79e4",
+            "type": "leaf",
+            "state": {
+              "type": "pdf",
+              "state": {
+                "file": "DDS/Supporting Documents/OpenDDSDevGuide.pdf"
+              }
+            }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -159,12 +181,14 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "96c8a9ff6e5e2464",
+  "active": "bc92a387a317cc0f",
   "lastOpenFiles": [
-    "DDS/Supporting Documents/OpenDDSDevGuide.pdf",
-    "DDS/Supporting notes/First steps in JAVA.md",
     "DDS/Attempting Open DDS on Windows.md",
     "DDS/c++ openDDS.md",
+    "DDS/Supporting Documents/OpenDDSDevGuide.pdf",
+    "CMake/Intro to CMake.md",
+    "CMake",
+    "DDS/Supporting notes/First steps in JAVA.md",
     "DDS/Images/buildSuccessCPP.png",
     "DDS/Images/cppPopulatedFolder.png",
     "DDS/Images/cppCompleteFolder.png",
