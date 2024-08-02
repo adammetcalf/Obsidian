@@ -722,3 +722,39 @@ However, to run each executable I must first launch an x64 native vs19 command p
 Ans:
 The full development environment is not needed when running applications. Just make sure that the PATH has all the `*.dll` files that the process will need to load. OpenDDS also supports a static library build where all ACE/TAO/OpenDDS code is built in to the executable file.
 ```
+
+
+
+# Deployment update 15/07/24
+
+CMake by default statically builds the files. The workflow I have identified that makes it so I can have a single deployable executable is mental (basically hacks the CMakeList for all of OpenDDS), but this is what works:
+
+1. Use a fresh copy of the latest tagged release of openDDS.
+2. Place the finished directory into DevGuideExamples/DCPS (in my case the directory is named Adam_hello_world).
+3. Edit the CMakeLists.txt file in OpenDDS root to include this new subdirectory (around line 150):
+```
+# Examples and Tests
+if(BUILD_TESTING)
+  set(_OPENDDS_BUILD_TESTS_DEFAULT TRUE)
+else()
+  set(_OPENDDS_BUILD_TESTS_DEFAULT FALSE)
+endif()
+set(OPENDDS_BUILD_TESTS ${_OPENDDS_BUILD_TESTS_DEFAULT} CACHE BOOL "Build OpenDDS Tests")
+set(OPENDDS_BUILD_EXAMPLES TRUE CACHE BOOL "Build OpenDDS Examples")
+if(OPENDDS_BUILD_EXAMPLES OR OPENDDS_BUILD_TESTS)
+  enable_testing()
+  add_subdirectory(DevGuideExamples/DCPS/Messenger)
+  add_subdirectory(DevGuideExamples/DCPS/Adam_hello_world)
+endif()
+if(OPENDDS_BUILD_TESTS)
+  add_subdirectory(tests)
+endif()
+```
+
+Compile using CMake commands launched in a command prompt scoped to the openDDS directory:
+```
+cmake -B build -DCMAKE_UNITY_BUILD=TRUE
+cmake --build build
+```
+
+There will now be generated 2 exes which run standalone, no need to set environment variables. Jesus!
