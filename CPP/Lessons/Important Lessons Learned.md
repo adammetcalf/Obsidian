@@ -29,3 +29,26 @@ Another usecase is swapping 2 numbers without using a temporary variable:
 a ^= b; 
 b ^= a; 
 a ^= b;
+```
+
+# Header Guards and pragma once
+
+In the header files, there are 2 methods to guard the files to ensure that functions and variables are protected from being defined more than once.
+
+```
+#pragma once
+```
+Pragma once tells the compiler to only ever include these definitions once. It is a neat way of doing this, but isn't supported in all compilers.
+
+```
+#ifndef _NAME_
+#def _NAME_
+
+// code here
+
+
+
+#endif
+```
+
+Header guards do the same thing, but are more verbose. They are however supported by the standard across all compilers.

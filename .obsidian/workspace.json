@@ -11,6 +11,16 @@
             "id": "86c65964b642cfe1",
             "type": "leaf",
             "state": {
+              "type": "pdf",
+              "state": {
+                "file": "FBG/Supporting Documents/Manual Shape Sensing software v1.3.pdf"
+              }
+            }
+          },
+          {
+            "id": "4109f89907e11461",
+            "type": "leaf",
+            "state": {
               "type": "markdown",
               "state": {
                 "file": "CPP/Lessons/Important Lessons Learned.md",
@@ -18,8 +28,21 @@
                 "source": false
               }
             }
+          },
+          {
+            "id": "5e832e61d59260d5",
+            "type": "leaf",
+            "state": {
+              "type": "markdown",
+              "state": {
+                "file": "Design Specifications.md",
+                "mode": "source",
+                "source": false
+              }
+            }
           }
-        ]
+        ],
+        "currentTab": 1
       }
     ],
     "direction": "vertical"
@@ -146,30 +169,35 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "86c65964b642cfe1",
+  "active": "4109f89907e11461",
   "lastOpenFiles": [
-    "CPP/Lessons/Operators.md",
-    "CPP/Guide.md",
-    "CPP/Lessons/Pointers.md",
-    "CPP/Lessons/Smart Pointers.md",
-    "CPP/Lessons/Loops.md",
-    "CPP/Lessons/Important Lessons Learned.md",
-    "CPP/Lessons/Stack and Heap.md",
     "CPP/Lessons/Data Types and Data Structures.md",
     "CPP/Lessons/Complex Derived Data Types.md",
+    "CPP/Lessons/Pointers.md",
+    "Terrabotics.md",
+    "Design Specifications.md",
+    "FBG/Supporting Documents/Manual Shape Sensing software v1.3.pdf",
+    "FBG/Tentacle implementation..md",
+    "FBG/Code documentation.md",
+    "FBG/images/TentacleCS.png",
+    "Mechanical Engineering/Supporting Files/CylinderInertias.pdf",
+    "Mechanical Engineering/Supporting Files",
+    "Mechanical Engineering",
+    "CPP/Lessons/Smart Pointers.md",
+    "CPP/Lessons/Important Lessons Learned.md",
+    "CPP/Lessons/Operators.md",
+    "CPP/Guide.md",
+    "CPP/Lessons/Loops.md",
+    "CPP/Lessons/Stack and Heap.md",
     "CPP/Images/CppMemory.png",
     "CMake/Intro to CMake.md",
     "CPP/Images/PointersMemory.png",
     "CPP/Images",
-    "Untitled.md",
     "CPP/Lessons",
     "CPP",
-    "FBG/Tentacle implementation..md",
     "FBG/Python TCP Receiver.md",
-    "FBG/Code documentation.md",
     "FBG/Outstanding Questions.md",
     "FBG/Supporting Documents/Hardware Manual FBG-Scan X0X v1.pdf",
-    "FBG/Supporting Documents/Manual Shape Sensing software v1.3.pdf",
     "FBG/images/Screenshot 2024-08-07 135635.png",
     "FBG/Supporting Documents/Instruction Manual 'ILLumiSense' software v3.1.pdf",
     "DDS/Attempting Open DDS on Windows.md",
@@ -179,21 +207,16 @@
     "TinkersCorner/PCB Components.md",
     "FBG/images/LabVIEW_4_Bytes_FP.png",
     "FBG/images/LabVIEW_4_Bytes_BD.png",
-    "FBG/images",
     "RSI/RSI Interface for comms.md",
-    "FBG/Supporting Documents",
-    "FBG",
     "DDS/Supporting notes/JNI JAVA Native Interface.md",
     "DDS/Supporting notes/Publisher.cpp.md",
     "Ros2Java/ROS 2 Systems Architecture.md",
     "Ros2Java/ROS 2 Messages and DDS.md",
     "Ros2Java/JAVA and DDS.md",
-    "DDS/c++ openDDS.md",
     "DDS/Images/buildSuccessCPP.png",
     "DDS/Images/cppPopulatedFolder.png",
     "DDS/Images/cppCompleteFolder.png",
     "Untitled.canvas",
-    "DDS/Images/VSLaunch.png",
-    "DDS/Images/MPCBuildSuccess.png"
+    "DDS/Images/VSLaunch.png"
   ]
 }
