@@ -23,7 +23,7 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPP/Lessons/Important Lessons Learned.md",
+                "file": "CPP/Guide.md",
                 "mode": "source",
                 "source": false
               }
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPP/Lessons/Important Lessons Learned.md",
+                "file": "CPP/Guide.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPP/Lessons/Important Lessons Learned.md",
+                "file": "CPP/Guide.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPP/Lessons/Important Lessons Learned.md"
+                "file": "CPP/Guide.md"
               }
             }
           }
@@ -171,6 +171,9 @@
   },
   "active": "4109f89907e11461",
   "lastOpenFiles": [
+    "CPP/Lessons/Function Overloading.md",
+    "CPP/Guide.md",
+    "CPP/Lessons/Important Lessons Learned.md",
     "CPP/Lessons/Data Types and Data Structures.md",
     "CPP/Lessons/Complex Derived Data Types.md",
     "CPP/Lessons/Pointers.md",
@@ -184,9 +187,7 @@
     "Mechanical Engineering/Supporting Files",
     "Mechanical Engineering",
     "CPP/Lessons/Smart Pointers.md",
-    "CPP/Lessons/Important Lessons Learned.md",
     "CPP/Lessons/Operators.md",
-    "CPP/Guide.md",
     "CPP/Lessons/Loops.md",
     "CPP/Lessons/Stack and Heap.md",
     "CPP/Images/CppMemory.png",
@@ -212,7 +213,6 @@
     "DDS/Supporting notes/Publisher.cpp.md",
     "Ros2Java/ROS 2 Systems Architecture.md",
     "Ros2Java/ROS 2 Messages and DDS.md",
-    "Ros2Java/JAVA and DDS.md",
     "DDS/Images/buildSuccessCPP.png",
     "DDS/Images/cppPopulatedFolder.png",
     "DDS/Images/cppCompleteFolder.png",
