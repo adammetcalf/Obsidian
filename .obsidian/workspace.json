@@ -23,26 +23,26 @@
             "state": {
               "type": "markdown",
               "state": {
-                "file": "CPP/Lessons/Important Lessons Learned.md",
+                "file": "CPP/Guide.md",
                 "mode": "source",
                 "source": false
               }
             }
           },
           {
-            "id": "5e832e61d59260d5",
+            "id": "5ed60c5b4946c738",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Specifications.md",
+                "file": "3D Coil/Instructions.md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +108,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPP/Lessons/Important Lessons Learned.md",
+                "file": "3D Coil/Instructions.md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +125,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPP/Lessons/Important Lessons Learned.md",
+                "file": "3D Coil/Instructions.md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +148,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPP/Lessons/Important Lessons Learned.md"
+                "file": "3D Coil/Instructions.md"
               }
             }
           }
@@ -169,13 +169,18 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4109f89907e11461",
+  "active": "5ed60c5b4946c738",
   "lastOpenFiles": [
+    "CPP/Guide.md",
+    "3D Coil/Instructions.md",
+    "Terrabotics.md",
+    "Design Specifications.md",
+    "3D Coil",
+    "CPP/Lessons/Function Overloading.md",
+    "CPP/Lessons/Important Lessons Learned.md",
     "CPP/Lessons/Data Types and Data Structures.md",
     "CPP/Lessons/Complex Derived Data Types.md",
     "CPP/Lessons/Pointers.md",
-    "Terrabotics.md",
-    "Design Specifications.md",
     "FBG/Supporting Documents/Manual Shape Sensing software v1.3.pdf",
     "FBG/Tentacle implementation..md",
     "FBG/Code documentation.md",
@@ -184,9 +189,7 @@
     "Mechanical Engineering/Supporting Files",
     "Mechanical Engineering",
     "CPP/Lessons/Smart Pointers.md",
-    "CPP/Lessons/Important Lessons Learned.md",
     "CPP/Lessons/Operators.md",
-    "CPP/Guide.md",
     "CPP/Lessons/Loops.md",
     "CPP/Lessons/Stack and Heap.md",
     "CPP/Images/CppMemory.png",
@@ -202,7 +205,6 @@
     "FBG/Supporting Documents/Instruction Manual 'ILLumiSense' software v3.1.pdf",
     "DDS/Attempting Open DDS on Windows.md",
     "TinkersCorner/product development/XMAS desk ornament.md",
-    "TinkersCorner/product development",
     "TinkersCorner/Ideas.md",
     "TinkersCorner/PCB Components.md",
     "FBG/images/LabVIEW_4_Bytes_FP.png",
@@ -211,8 +213,6 @@
     "DDS/Supporting notes/JNI JAVA Native Interface.md",
     "DDS/Supporting notes/Publisher.cpp.md",
     "Ros2Java/ROS 2 Systems Architecture.md",
-    "Ros2Java/ROS 2 Messages and DDS.md",
-    "Ros2Java/JAVA and DDS.md",
     "DDS/Images/buildSuccessCPP.png",
     "DDS/Images/cppPopulatedFolder.png",
     "DDS/Images/cppCompleteFolder.png",
