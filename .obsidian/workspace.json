@@ -21,28 +21,26 @@
             "id": "4109f89907e11461",
             "type": "leaf",
             "state": {
-              "type": "markdown",
+              "type": "pdf",
               "state": {
-                "file": "CPP/Lessons/Important Lessons Learned.md",
-                "mode": "source",
-                "source": false
+                "file": "Mechanical Engineering/Supporting Files/CylinderInertias.pdf"
               }
             }
           },
           {
-            "id": "5e832e61d59260d5",
+            "id": "79aa360ee8235122",
             "type": "leaf",
             "state": {
               "type": "markdown",
               "state": {
-                "file": "Design Specifications.md",
+                "file": "FBG/Tentacle implementation..md",
                 "mode": "source",
                 "source": false
               }
             }
           }
         ],
-        "currentTab": 1
+        "currentTab": 2
       }
     ],
     "direction": "vertical"
@@ -108,7 +106,7 @@
             "state": {
               "type": "backlink",
               "state": {
-                "file": "CPP/Lessons/Important Lessons Learned.md",
+                "file": "FBG/Tentacle implementation..md",
                 "collapseAll": false,
                 "extraContext": false,
                 "sortOrder": "alphabetical",
@@ -125,7 +123,7 @@
             "state": {
               "type": "outgoing-link",
               "state": {
-                "file": "CPP/Lessons/Important Lessons Learned.md",
+                "file": "FBG/Tentacle implementation..md",
                 "linksCollapsed": false,
                 "unlinkedCollapsed": true
               }
@@ -148,7 +146,7 @@
             "state": {
               "type": "outline",
               "state": {
-                "file": "CPP/Lessons/Important Lessons Learned.md"
+                "file": "FBG/Tentacle implementation..md"
               }
             }
           }
@@ -169,22 +167,25 @@
       "command-palette:Open command palette": false
     }
   },
-  "active": "4109f89907e11461",
+  "active": "79aa360ee8235122",
   "lastOpenFiles": [
+    "Stiffness rig.md",
+    "Mechanical Engineering/Supporting Files/CylinderInertias.pdf",
+    "Phantoms/Ultrasound Phantom.md",
+    "CPP/Lessons/Important Lessons Learned.md",
+    "Phantoms",
+    "Terrabotics.md",
+    "Design Specifications.md",
     "CPP/Lessons/Data Types and Data Structures.md",
     "CPP/Lessons/Complex Derived Data Types.md",
     "CPP/Lessons/Pointers.md",
-    "Terrabotics.md",
-    "Design Specifications.md",
     "FBG/Supporting Documents/Manual Shape Sensing software v1.3.pdf",
     "FBG/Tentacle implementation..md",
     "FBG/Code documentation.md",
     "FBG/images/TentacleCS.png",
-    "Mechanical Engineering/Supporting Files/CylinderInertias.pdf",
     "Mechanical Engineering/Supporting Files",
     "Mechanical Engineering",
     "CPP/Lessons/Smart Pointers.md",
-    "CPP/Lessons/Important Lessons Learned.md",
     "CPP/Lessons/Operators.md",
     "CPP/Guide.md",
     "CPP/Lessons/Loops.md",
@@ -202,7 +203,6 @@
     "FBG/Supporting Documents/Instruction Manual 'ILLumiSense' software v3.1.pdf",
     "DDS/Attempting Open DDS on Windows.md",
     "TinkersCorner/product development/XMAS desk ornament.md",
-    "TinkersCorner/product development",
     "TinkersCorner/Ideas.md",
     "TinkersCorner/PCB Components.md",
     "FBG/images/LabVIEW_4_Bytes_FP.png",
@@ -210,9 +210,6 @@
     "RSI/RSI Interface for comms.md",
     "DDS/Supporting notes/JNI JAVA Native Interface.md",
     "DDS/Supporting notes/Publisher.cpp.md",
-    "Ros2Java/ROS 2 Systems Architecture.md",
-    "Ros2Java/ROS 2 Messages and DDS.md",
-    "Ros2Java/JAVA and DDS.md",
     "DDS/Images/buildSuccessCPP.png",
     "DDS/Images/cppPopulatedFolder.png",
     "DDS/Images/cppCompleteFolder.png",
